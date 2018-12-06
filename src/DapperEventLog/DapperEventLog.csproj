@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>RabbitMQ.EventBus.AspNetCore.DapperEventLog</RootNamespace>
+    <AssemblyName>RabbitMQ.EventBus.AspNetCore.DapperEventLog</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.5" />
+    <PackageReference Include="RabbitMQ.EventBus.AspNetCore" Version="1.2.13" />
+    <PackageReference Include="Z.Dapper.Plus" Version="1.4.3" />
+  </ItemGroup>
+
+</Project>
